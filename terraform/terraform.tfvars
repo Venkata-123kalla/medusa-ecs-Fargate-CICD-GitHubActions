@@ -1,0 +1,5 @@
+aws_region     = "us-east-1"
+medusa_image   = "venkatamahendrakalla/medusa-ecs:latest"
+db_user        = "medusauser"
+db_password    = "Mahi@123"
+jwt_secret     = "Mahi@123"
