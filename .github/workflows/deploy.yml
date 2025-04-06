@@ -55,6 +55,10 @@ jobs:
       - name: Force New Deployment in ECS
         run: |
           aws ecs update-service --cluster medusa-cluster --service medusa-service --force-new-deployment
+        env:
+          AWS_REGION: ap-south-1
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       # Uncomment below if you want to destroy
       # - name: Plan Terraform Destroy
