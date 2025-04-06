@@ -1,4 +1,4 @@
-#Github actions pipeline code for medusa server backend on ecs fargate.
+#Github actions pipeline code for medusa server backend on ecs fargate..
 name: Deploy Medusa Backend On Ecs Fargate
 
 on:
