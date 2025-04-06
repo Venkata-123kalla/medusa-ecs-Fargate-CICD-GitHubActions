@@ -1,4 +1,5 @@
-name: Deploy Medusa Backend to AWS ECS
+#Github actions pipeline code for medusa server backend on ecs fargate
+name: Deploy Medusa Backend On Ecs Fargate
 
 on:
   push:
