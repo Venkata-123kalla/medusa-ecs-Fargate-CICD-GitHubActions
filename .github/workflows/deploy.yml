@@ -43,6 +43,9 @@ jobs:
       - name: Initialize Terraform
         run: terraform init
 
+      - name: validate terraform
+        run: terraform validate
+        
       - name: Plan Terraform Changes
         run: terraform plan
 
