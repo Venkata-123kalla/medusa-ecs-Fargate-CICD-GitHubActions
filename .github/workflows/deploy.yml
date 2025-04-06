@@ -61,8 +61,8 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       # Uncomment below if you want to destroy
-      # - name: Plan Terraform Destroy
-      #   run: terraform plan -destroy
+      - name: Plan Terraform Destroy
+        run: terraform plan -destroy
 
-      # - name: Apply Terraform Destroy
-      #   run: terraform destroy -auto-approve
+      - name: Apply Terraform Destroy
+        run: terraform destroy -auto-approve
