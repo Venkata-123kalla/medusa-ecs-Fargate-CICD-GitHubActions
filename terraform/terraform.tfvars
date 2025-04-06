@@ -1,4 +1,4 @@
-aws_region     = "ap-south-1"
+aws_region     = "us-east-2"
 medusa_image   = "venkatamahendrakalla/medusa-ecs:latest"
 db_user        = "medusauser"
 db_password    = "T3rrF0rmSecure#2025"
