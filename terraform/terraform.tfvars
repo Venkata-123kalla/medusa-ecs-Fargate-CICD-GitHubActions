@@ -1,5 +1,5 @@
 aws_region     = "ap-south-2"
 medusa_image   = "venkatamahendrakalla/medusa-ecs:latest"
 db_user        = "medusauser"
-db_password    = "Mahi@123"
-jwt_secret     = "Mahi@123"
+db_password    = "T3rrF0rmSecure#2025"
+jwt_secret     = "T3rrF0rmSecure#2025"
